@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: "homework-jpa-1"
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/jpa_homework_1
+    password:
+    username: postgres
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
